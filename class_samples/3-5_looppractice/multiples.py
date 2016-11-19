@@ -1,7 +1,13 @@
 # multiples.py
 
 print('For what number would you like multiples?')
-num = int(raw_input())
+num = float(raw_input())
+number= int(1)
+multi = int(num * number)
 
-while num < 1000:
-	
+ 
+while multi < 1000:
+	print( str(number) + ' times ' + str(num) + ' equals ' + str(multi) + '.')
+	number = number + 1
+	multi = float(num * number)
+
