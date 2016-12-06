@@ -14,11 +14,11 @@ while list < 5:
 print('Here is what you entered:')
 print(tv)
 print('I have added a couple of important ones.')
-tv.append('Breaking Bad')
+tv.append("Breaking Bad")
 tv.append('The Wire')
+tv.sort()
 #This second part is to sort out the shows by alphabetical order. 
 number = 1
 for entertainment in tv:
-        tv.sort()
-	print( str(number) + '.' + entertainment)
-        number += 1   
+        print( str(number) + '.' + entertainment)
+        number += 1
