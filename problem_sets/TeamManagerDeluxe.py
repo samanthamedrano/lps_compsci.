@@ -77,7 +77,7 @@ while choice != 0:
 		jersey_num = int(raw_input())
 		print("Enter the position that this player plays:")
 		position = raw_input()
-		my_players.append(Player(player_name, player_age, player_goals, jersey_num, position))
+		players.append(Player(player_name, player_age, player_goals, jersey_num, position))
 		print("Okay! We got it,now it will appear in the list when you run it again.")
 
 	# if the user wants to print the players, call printStats for each Player
